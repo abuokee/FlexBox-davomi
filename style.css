@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  background: #f0d9f8;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #9b59b6;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  justify-content: center;
+  max-width: 720px; /* 4 ta card sig‘adigan o‘lcham */
+  margin: 0 auto;
+}
+
+.card {
+  background: #9b59b6;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.item {
+  width: 20px;
+  height: 20px;
+  background: orange;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+/* Layout modifiers */
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.wrap-center {
+  flex-wrap: wrap;
+  justify-content: center;
+}
